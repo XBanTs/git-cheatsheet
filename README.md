@@ -8,7 +8,7 @@
 **To get started, I would recommend the installation of git through this link: https://git-scm.com and launch git bash.**
 
 **The basic syntax that I used to prepare this cheat sheet goes like this:**
-### TASK TO COMPLETE:
+**TASK TO COMPLETE:**
 **command goes here**
 
 **May we begin? of course we can! :smile:**
@@ -21,6 +21,8 @@
 
 ### GLOBAL CONFIGURATION FOR USER:
 **git config --global user.name "your username"**
+
+
 **git config --global user.email "your email"**
 >[!NOTE]
 > Use global to set the username and e-mail for every repository on your computer.
@@ -28,6 +30,8 @@
 
 ### TO CREATE A NEW FOLDER FOR YOUR PROJECT:
 **mkdir projectname -> makes a new directory**
+
+
 **cd projectname -> changes the current working directory**
 >[!TIP]
 >If you already have a folder/directory you would like to use for git; navigate to it in the command line, or open it in your file explorer, right-click and select 'Git Bash here'.
@@ -148,7 +152,7 @@
 **git push origin**
 
 ### CREATE A NEW BRANCH ON GITHUB:
-**On github, access your repository and click the "master" branch button. Then you can create a new branch. Type in a descriptive name, and click 'Create Branch'
+**On github, access your repository and click the "master" branch button. Then you can create a new branch. Type in a descriptive name, and click 'Create Branch'**
 
 ### TO LIST ALL LOCAL AND REMOTE BRANCHES OF THE CURRENT GIT:
 **git branch -a**
@@ -261,10 +265,11 @@
 **Adding files with --amend works the same way as above. Just add them to the staging environment before committing.**
 
 
+
+
 **I hope this repository has helped you in your next journey into version control as a developer. I would love and appreicate feedbacks.**
 
 **I would also appreciate stars and follows on this repo and my profile (github.com/XBanTs) and also feel free to share.**
 **I'm avaialable on social platforms like X(Twitter) through the user: @XBanTs_**
 **Let's connect and innovate, cheers!** 
 **By Ayo "XBanTs" Oyewo.**
-
