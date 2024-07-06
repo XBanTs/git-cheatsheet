@@ -8,6 +8,8 @@
 **To get started, I would recommend the installation of git through this link: https://git-scm.com and launch git bash.**
 
 **The basic syntax that I used to prepare this cheat sheet goes like this:**
+
+
 **TASK TO COMPLETE:**
 **command goes here**
 
