@@ -69,7 +69,7 @@
 > A - Files added to stage
 > M - Modified files
 > D - Deleted files
-
+---
 ### TO MAKE A COMMIT WITHOUT STAGING:
 **git commit -a -m "message about the updated file"**
 >[!TIP]
@@ -77,15 +77,15 @@
 
 >[!WARNING]
 > Skipping the Staging Environment is not generally recommended. Skipping the stage step can sometimes make you include unwanted changes.
-
+---
 ### TO VIEW HISTORY OF COMMITS FOR A REPOSITORY, USE THE LOG COMMAND:
 **git log**
 >[!TIP]
 > Using git reflog gives you a history of local commits.
-
+---
 ### TO AVOID THE VERY LONG LOG LIST, AND GET JUST ONE LINE PER COMMIT:
 **git log --oneline**
-
+---
 ### HAVING A HARD TIME REMEBERING COMMANDS? USE GIT HELP:
 **git commandname -help  (gives you all available options for a specific command. Note to replace 'commandname' with the specific command name) - For Example; git commit -help**
 >[!TIP]
@@ -97,14 +97,14 @@
 
 >[!TIP]
 > If you find yourself stuck in the list view, use SHIFT + G to jump to the end of the list, then q to exit the view.
-
+---
 ### TO CREATE A NEW BRANCH:
 **git branch branchname**
 **(replace branchname with the specific name of the branch you wish to create. E.g; git branch dev - with dev being the branch name.)**
-
+---
 ### TO CONFIRM NEW BRANCH CREATED:
 **git branch**
-
+---
 ### TO MOVE CURRENT WORKSPACE FROM MASTER BRANCH TO A NEW BRANCH:
 **git switch branchname**
 **(You can also use checkout, but I prefer switch)**
@@ -115,19 +115,19 @@
 >[!TIP]
 > You can also use 'git switch -c branchname' to create and immediately switch to a new branch.
 > Remove the -c option if the branch already exists.
-
+---
 ### TO SWITCH BACK TO THE MASTER BRANCH:
 **git switch master**
-
+---
 ### TO CREATE A NEW BRANCH TO DEAL WITH EMERGENCIES:
 **git checkout -b emergency-fix (it will switch to a new branch called emergency fix, you can give it any name you want)**
-
+---
 ### TO MERGE TWO BRANCHES, FIRST SWICTH TO THE MASTER BRANCH AND THEN USE:
 **git merge newbranch (replace 'newbranch' with the name of the branch you want to merge)**
-
+---
 ### TO DELETE A BRANCH:
 **git branch -d branchname**
-
+---
 
 
 ## USING GIT & GITHUB
@@ -135,38 +135,38 @@
 
 ### TO ADD A REMOTE REPOSITORY WITH THE SPECIFIED URL:
 **git remote add origin URL (The 'URL' will have a .git extension which you can get from your already created repository)**
-
+---
 ### TO PUSH MASTER BRANCH TO THE ORIGIN URL(GITHUB) AND SET IT AS DEFAULT:
 **git push --set-upstream origin master**
 >[!NOTE]
 > If you use github instead of origin, it will still work.
-
+---
 ### TO GET ALL THE CHANGE HISTORY OF A TRACKED BRANCH/REPO:
 **git fetch origin**
-
+---
 ### TO COMBINE A CURRENT BRANCH (MASTER) WITH A SPECIFIED BRANCH (ORIGIN/MASTER):
 **git merge origin/master**
-
+---
 ### TO PULL ALL CHANGES FROM A REMOTE REPOSITORY INTO THE BRANCH YOU CURRENTLY WORKING ON (This is more like a combination of fetch and merge):
 **git pull origin**
 [!NOTE]
 > This will also update local git.
 > While working on a new branch, you can use 'git pull' to pull from your local repository so that your code is updated.
-
+---
 ### MAKE CHANGES TO LOCAL GIT AND PUSH THEM TO REMOTE ORIGIN ON GITHUB:
 **git push origin**
-
+---
 ### CREATE A NEW BRANCH ON GITHUB:
 **On github, access your repository and click the "master" branch button. Then you can create a new branch. Type in a descriptive name, and click 'Create Branch'**
-
+---
 ### TO LIST ALL LOCAL AND REMOTE BRANCHES OF THE CURRENT GIT:
 **git branch -a**
 >[!NOTE]
 > branch -r is for remote branches only.
-
+---
 ### TO PUSH A NEW BRANCH FROM LOCAL REPOSITORY TO GITHUB:
 **git push origin branchname**
-
+---
 
 
 
@@ -177,7 +177,7 @@
 **A fork is a copy of a repository. This is useful when you want to contribute to someone else's project or start your own project based on theirs.**
 **Fork is not a command in Git, but something offered in GitHub and other repository hosts.**
 **You can see it on the top right side of a repo**
-
+---
 ### CLONE A FORK FROM GITHUB:
 **A clone is a full copy of a repo, including all logging and versions of files.**
 
@@ -190,7 +190,7 @@
 > git clone URL directoryname
 
 3. Make changes and push the changes to your Github fork.
-
+---
 
 
 # GIT IGNORE
@@ -224,7 +224,7 @@
 >[!NOTE]
 > In this case, we use a single .gitignore which applies to the entire repository.
 > It is also possible to have additional .gitignore files in subdirectories. These only apply to files or folders within that directory.
-
+---
 
 
 
@@ -239,12 +239,12 @@
 
 >[!WARNING]
 >Messing with the commit history of a repository can be dangerous, it's more advisable to make those changes to your local repository and avoid making changes that rewrite history to remote repositories, especially if others are working with them.
-
+---
 ### GIT UNDO RESET
 **Even though the commits are no longer showing up in the log, it's not removed from Git.**
 **If you know the commit hash, you can reset to it using the same command:git reset commithash**
 **And then check the log again to see those changes**
-
+---
 
 ## GIT REVERT
 **Revert is the command we use when we want to take a previous commit and add it as a new commit, keeping the log intact.**
@@ -254,7 +254,7 @@
 >[!NOTE]
 >To revert to earlier commits, use git revert HEAD-x
 >(x being a number. 1 means going back one more, 2 means going back two more, etc)
-
+---
 
 ## GIT AMMEND
 **commit --amend is used to modify the most recent commit.**
@@ -265,7 +265,7 @@
 
 >[!WARNING]
 >Messing with the commit history of a repository can be dangerous, it's more advisable to make those changes to your local repository and avoid making changes that rewrite history to remote repositories, especially if others are working with them.
-
+---
 ### GIT AMEND FILES
 **Adding files with --amend works the same way as above. Just add them to the staging environment before committing.**
 
