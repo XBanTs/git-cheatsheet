@@ -6,7 +6,7 @@
 **This is a well documented cheat sheet that covers all you need to know about git and github.**
 
 **To get started, I would recommend the installation of git through this link: https://git-scm.com and launch git bash.**
-
+---
 **The basic syntax that I used to prepare this cheat sheet goes like this:**
 
 
@@ -14,7 +14,7 @@
 
 
 **command goes here**
-
+---
 **May we begin? of course we can! :smile:**
 
 
@@ -22,11 +22,11 @@
 
 ### TO CHECK GIT VERSION:
 **git --version**
-
+---
 ### GLOBAL CONFIGURATION FOR USER:
 **git config --global user.name "your username"**
 
-
+---
 **git config --global user.email "your email"**
 >[!NOTE]
 > Use global to set the username and e-mail for every repository on your computer.
