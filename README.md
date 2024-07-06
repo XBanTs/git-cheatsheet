@@ -14,7 +14,8 @@
 
 
 **command goes here**
----
+
+
 **May we begin? of course we can! :smile:**
 
 
@@ -26,12 +27,12 @@
 ### GLOBAL CONFIGURATION FOR USER:
 **git config --global user.name "your username"**
 
----
+
 **git config --global user.email "your email"**
 >[!NOTE]
 > Use global to set the username and e-mail for every repository on your computer.
 > If you want to set the username/e-mail for just the current repository, you can remove 'global'.
-
+---
 ### TO CREATE A NEW FOLDER FOR YOUR PROJECT:
 **mkdir projectname -> makes a new directory**
 
@@ -39,27 +40,27 @@
 **cd projectname -> changes the current working directory**
 >[!TIP]
 >If you already have a folder/directory you would like to use for git; navigate to it in the command line, or open it in your file explorer, right-click and select 'Git Bash here'.
-
+---
 ### INITIALIZE GIT:
 **git init**
-
+---
 ### TO LIST THE FILES IN CURRENT WORKING DIRECTORY:
 **ls**
-
+---
 ### TO SEE IF A FILE IS PART OF YOUR REPOSITORY:
 **git status**
-
+---
 ### TO ADD A FILE TO STAGING ENVIRONMENT (Make sure to input the filename or use 'git add .' to add a recently created file):
 **git add filename**
-
+---
 ### TO ADD ALL FILES IN CURRENT DIRECTORY TO STAGING ENVIRONMENT:
 **git add --all**
 >[!NOTE]
 > The shorthand command for git add --all is git add -A
-
+---
 ### TO COMMIT STAGING ENVIRONMENT TO YOUR REPOSITORY WITH A MESSAGE:
 **git commit -m "message written here"**
-
+---
 ### TO SEE FILE CHANGES IN A MORE COMPACT WAY:
 **git status --short**
 >[!IMPORTANT]
