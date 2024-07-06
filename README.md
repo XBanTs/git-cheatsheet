@@ -268,7 +268,7 @@
 ### GIT AMEND FILES
 **Adding files with --amend works the same way as above. Just add them to the staging environment before committing.**
 
-
+---
 
 
 **I hope this repository has helped you in your next journey into version control as a developer. I would love and appreicate feedbacks.**
